@@ -7,11 +7,17 @@
 
 # Site settings
 title: 未吱参鼠X的博客
+SEOTitle: 
 brief-intro: An amateur Computer Scientist
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://parameterx.github.io" # the base hostname & protocol for your site
 
 permalink: /:year/:month/:day/:title/
+
+# Sidebar settings
+sidebar: true                           # 是否开启侧边栏.
+sidebar-about-description: "说点装逼的话。。。"
+sidebar-avatar: /img/avatar-by.JPG # 你的个人头像
 
 # other links
 twitter_username: #
@@ -23,7 +29,7 @@ zhihu_username: #
 linkedIn_username: #
 dribbble_username: #
 
-description_footer: 来自徐代龙的个人专栏！
+description_footer: 来自ParameterX的个人专栏！
 
 # comments
 # two ways to comment, only choose one, and use your own short name
