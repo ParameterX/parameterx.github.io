@@ -7,9 +7,10 @@
 
 # Site settings
 title: ParameterX的博客
-SEOTitle: ParameterX's Blog
+SEOTitle: ParameterX的博客 | ParameterX's Blog
 brief-intro: An amateur Computer Scientist
 baseurl: "" # the subpath of your site, e.g. /blog
+description: "Test description"
 url: "https://parameterx.github.io" # the base hostname & protocol for your site
 
 permalink: /:year/:month/:day/:title/
@@ -17,7 +18,7 @@ permalink: /:year/:month/:day/:title/
 # Sidebar settings
 sidebar: true                           # 是否开启侧边栏.
 sidebar-about-description: "说点装逼的话。。。"
-sidebar-avatar: /img/avatar.JPG # 你的个人头像
+sidebar-avatar: /img/avatar.jpg # 你的个人头像
 
 # other links
 # SNS settings
@@ -36,15 +37,15 @@ description_footer: 来自ParameterX的个人专栏
 # comments
 # two ways to comment, only choose one, and use your own short name
 # 两种评论插件，选一个就好了，使用自己的 short_name
-duoshuo_shortname: #hygblog
-disqus_shortname: #gaohaoyang
+#duoshuo_shortname: #hygblog
+#disqus_shortname: #gaohaoyang
 
 # statistic analysis 统计代码
 # 百度统计 id，将统计代码替换为自己的百度统计id，即
 # hm.src = "//hm.baidu.com/hm.js?xxxxxxxxxxxx";
 # xxxxx字符串
-baidu_tongji_id: 1cc1fc4b4b456bf7c99ce80aec5bf009
-google_analytics_id: UA-72449510-4 # google 分析追踪id
+#baidu_tongji_id: 1cc1fc4b4b456bf7c99ce80aec5bf009
+#google_analytics_id: UA-72449510-4 # google 分析追踪id
 
 # Build settings
 markdown: kramdown
