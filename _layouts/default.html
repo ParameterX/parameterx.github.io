@@ -4,12 +4,17 @@
     <meta charset="utf-8">
     <title>ParameterX's Blog | {{ page.title }}</title>
     <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?">
   </head>
   <body>
-    {% include header.html %}
-    <div class="main">
-      {{ content }}
+    <div class="container">
+
+      {% include header.html %}
+
+      <div class="content">{{ content }}</div>
+
+      {% include footer.html %}
+      
     </div>
-    {% include footer.html %}
   </body>
 </html>
