@@ -2,18 +2,19 @@
 layout: default
 title: Blog
 ---
+<body style="background-image: url(/assets/images/background.png); background-size: 100%; background-attachment: fixed;">
+  <div class="centercontent">
+    <h1>Latest Posts</h1>
 
-<div class="centercontent">
-  <h1>Latest Posts</h1>
-  
-  <ul>
-    {% for post in site.posts %}
-      <li>
-        <div>
-          <h2><a href="{{ post.url }}" style="color:black">{{ post.title }}</a></h2>
-          {{ post.description }}
-        </div>
-      </li>
-    {% endfor %}
-  </ul>
-</div>
+    <ul>
+      {% for post in site.posts %}
+        <li>
+          <div>
+            <h2><a href="{{ post.url }}" style="color:black">{{ post.title }}</a></h2>
+            {{ post.description }}
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</body>

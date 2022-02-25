@@ -17,6 +17,7 @@ html,body {
     position: relative;
 }
 h1 {
+    line-height: 2em;
     color: rgb(0, 84, 163);
 }
 p {
@@ -29,14 +30,27 @@ p {
     padding-bottom: 100px;
 }
 .hline {
-    display: inline-block;
     height: 1px;
-    background-color: #333;
-    width: 100px;
-    margin: 0px auto;
+    background-color:lightgrey;
+    width: 860px;
+    margin: 4px auto;
 }
 .container {
     height: 100%;
+}
+/*设置占全款的东西，通常是图片*/
+.bgfull {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+img {
+    width: 100%;
+}
+/*设置一般需要居中的界面*/
+.centercontent {
+    width: 860px;
+    margin: auto auto;
 }
 /*设置导航栏的样式*/
 nav {
@@ -86,9 +100,4 @@ nav li {
     align-content: center;
     line-height: 100px;
     background-color: #333;
-}
-/*设置一般需要居中的界面*/
-.centercontent {
-    width: 860px;
-    margin: auto auto;
 }
