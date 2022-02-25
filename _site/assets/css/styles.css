@@ -17,6 +17,10 @@ html,body {
 h1 {
     color: rgb(0, 84, 163);
 }
+p {
+    text-indent: 2em;
+    margin-top: 1em;
+}
 .content {
     width: 100%;
     margin: 0 auto;
@@ -81,8 +85,8 @@ nav li {
     line-height: 100px;
     background-color: #333;
 }
-@media screen and (max-width: 500px){
-    .footer {
-        height: 64px;
-    }
+/*设置一般需要居中的界面*/
+.centercontent {
+    width: 860px;
+    margin: auto auto;
 }
