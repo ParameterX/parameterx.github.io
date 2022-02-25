@@ -45,6 +45,17 @@ p {
     margin-left: 70%;
     background-color: rgba(51, 51, 51, 0.466);
 }
+.indexboxonly {
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 20px;
+    color: whitesmoke;
+  }
+.indexboxonly:hover {
+    background-color: rgba(17, 17, 17, 0.329);
+    color: rgb(209, 206, 206);
+}
 /*设置blog页面中一个post块的样式*/
 .postblock {
     background-color: rgba(245, 245, 245, 0.692);
