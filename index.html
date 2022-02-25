@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: index
 title: Home
 ---
 
@@ -9,23 +9,41 @@ title: Home
   <head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
+
+    <style>
+      .indexboxonly {
+        height: 60px;
+        text-align: center;
+        line-height: 60px;
+        font-size: 20px;
+        color: whitesmoke;
+      }
+      .indexboxonly:hover {
+        background-color: rgba(17, 17, 17, 0.329);
+        color: rgb(209, 206, 206);
+      }
+    </style>
+
   </head>
 
   <!--<body> starts here-->
-  <body style="background-image: url(/assets/images/iabout.png); background-size: 100%; background-attachment: fixed;">
-    <div class="bgfull">
-      <img src="/assets/images/Stellaris.png" alt="Stellaris">
-    </div>
+  <body style="background-image: url(/assets/images/Stellaris.png); background-size: 100%; background-attachment: fixed; ">
 
-    <div class="centercontent">
-      <h1>ParameterX的博客</h1>
-      <h1>ParameterX的博客</h1>
-      <h1>ParameterX的博客</h1>
-      <h1>ParameterX的博客</h1>
-      <h1>ParameterX的博客</h1>
-      <h1>ParameterX的博客</h1>
-    </div>
 
+
+    <div class="indexcontent">
+      <h1 style="color: whitesmoke;">ParameterX的博客</h1>
+      <img style="width: 160px; margin: 30px auto;" src="/assets/images/avatar.png" alt="ParameterX">
+      <div style="color:whitesmoke;">"We do what we must, because we can."</div>
+
+      <div style="margin-top: 30px;">
+        <a href="/index.html"><div class="indexboxonly">首页</div></a>
+        <a href="/about.html"><div class="indexboxonly">关于</div></a>
+        <a href="/blog.html"><div class="indexboxonly">博客</div></a>
+        <a href="/more.html"><div class="indexboxonly">更多</div></a>
+      </div>
+
+    </div>
 
   </body>
 </html>

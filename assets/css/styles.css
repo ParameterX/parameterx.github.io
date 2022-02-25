@@ -38,6 +38,15 @@ p {
 .container {
     height: 100%;
 }
+/*设置index界面的东西*/
+.indexcontent {
+    position: absolute;
+    width: 27%;
+    height: 100%;
+    text-align: center;
+    margin-left: 70%;
+    background-color: rgba(51, 51, 51, 0.466);
+}
 /*设置blog页面中一个post块的样式*/
 .postblock {
     background-color: rgba(245, 245, 245, 0.692);
@@ -77,8 +86,6 @@ img {
 /*设置导航栏的样式*/
 nav {
     margin: 0 auto;
-}
-nav {
     list-style: none;
     float: left;
 }
