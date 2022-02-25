@@ -36,6 +36,13 @@ p {
 .container {
     height: 100%;
 }
+/*设置blog页面中一个post块的样式*/
+.postblock {
+    background-color: rgba(245, 245, 245, 0.692);
+    line-height: 2em;
+    margin-top: 20px;
+    padding: 2em;
+}
 /*设置占全款的东西，通常是图片*/
 .bgfull {
     position: relative;
@@ -48,7 +55,22 @@ img {
 /*设置一般需要居中的界面*/
 .centercontent {
     width: 860px;
-    margin: auto auto;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.ccpost {
+    background-color: rgba(245, 245, 245, 0.692);
+    min-height: 500px;
+    margin: 100px auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/*设置post-background*/
+.postbackground {
+    background-image: url(/assets/images/posts/);
+    background-size: 100%;
+    background-attachment: fixed;
 }
 /*设置导航栏的样式*/
 nav {

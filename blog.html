@@ -2,16 +2,19 @@
 layout: default
 title: Blog
 ---
-<body style="background-image: url(/assets/images/background.png); background-size: 100%; background-attachment: fixed;">
+<body style="background-image:url(/assets/images/background.png); background-size: 100%; background-attachment: fixed;">
   <div class="centercontent">
     <h1>Latest Posts</h1>
 
-    <ul>
+    <ul style="list-style: none;">
       {% for post in site.posts %}
         <li>
-          <div>
+          <div class="postblock">
             <h2><a href="{{ post.url }}" style="color:black">{{ post.title }}</a></h2>
             {{ post.description }}
+            <div style="text-align: right; ">
+              <a href="{{ post.url }}" style="color:royalblue">阅读全文></a>
+            </div>
           </div>
         </li>
       {% endfor %}
